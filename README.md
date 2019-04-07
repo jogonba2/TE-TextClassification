@@ -51,7 +51,7 @@ Algunas cosas que he visto:
     
  * El 3º cabezal reacciona siempre a las palabra "no", "ni" (en caso de que no estén, no lo entiendo, parece controlar la negación marca los segmentos negados)
     
- * El 6º cabezal reacciona a casi todo, parece componer las palabras de alguna manera.
+ * El 6º cabezal reacciona a casi todo, menos a determinantes, preoposiciones, etc. (generalmente a palabras con "significado")
 
  * Si no hay palabras que tienen mucha importancia según el cabezal (negaciones, tiempos, usuarios, etc.) todos parecen reaccionar a palabras con polaridad alta (bien positiva o negativa)
  
