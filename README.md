@@ -10,6 +10,33 @@ Este es el modelo que mejor ha funcionado en comparación a los modelos del año
   * DAN (es-run1): Acc: 0.569707 | MF1: 0.482551
   * Transformer: Acc: 0.595525 | MF1: 0.522083
 
+
+Mejor modelo (Transformer):
+
+Acc: 0.595525
+MF1: 0.522083
+MP: 0.529196
+MR: 0.521423
+Conf Matrix
+
+ [[201  30  13  22]
+ [ 31  29  10  13]
+ [ 16  10  30   8]
+ [ 46  22  14  86]]
+ 
+Classification Report
+               precision    recall  f1-score   support
+
+           N       0.68      0.76      0.72       266
+         NEU       0.32      0.35      0.33        83
+        NONE       0.45      0.47      0.46        64
+           P       0.67      0.51      0.58       168
+
+   micro avg       0.60      0.60      0.60       581
+   macro avg       0.53      0.52      0.52       581
+weighted avg       0.60      0.60      0.59       581
+
+
 El modelo tiene una sola capa con 6 cabezales de atención. Lo que se muestra son los 6 cabezales para cada muestra (más amarillo más peso, más morado, menos peso).
 
 Algunas cosas que he visto:
@@ -69,3 +96,21 @@ Muestra 508 (Pred:P Truth:N)
 
 Muestra 99 (Pred:NEU Truth:NEU)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_99.png)
+
+---
+
+Muestra 0 (Pred:N Truth:NONE)
+![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_0.png)
+---
+
+Muestra 1 (Pred:N Truth:N)
+![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_1.png)
+---
+
+Muestra 136 (Pred:N Truth:P)
+![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_136.png)
+---
+
+Muestra 17 (Pred:P Truth:P)
+![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_17png)
+---
