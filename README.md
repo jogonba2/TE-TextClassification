@@ -13,10 +13,11 @@ Este es el modelo que mejor ha funcionado en comparación a los modelos del año
 
 Mejor modelo (Transformer):
 
-Acc: 0.595525
-MF1: 0.522083
-MP: 0.529196
-MR: 0.521423
+    Acc: 0.595525
+    MF1: 0.522083
+    MP: 0.529196
+    MR: 0.521423
+    
 Conf Matrix
 
     N 201 30 13 22
