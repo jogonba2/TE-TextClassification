@@ -25,47 +25,47 @@ Algunas cosas que he visto:
  * El 6º cabezal reacciona a casi todo_, parece componer las palabras de alguna manera.
 
  * Si no hay palabras que tienen mucha importancia según el cabezal (negaciones, tiempos, usuarios, etc.) parece reaccionar a palabras con polaridad alta (bien positiva o negativa)
-    
-    * Para las clases NEU y NONE, los patrones forman "cuadros" complicados de entender, para las P y N suelen marcar palabras con polaridades altas y se entienden mejor las atenciones
+ 
+ * Para las clases NEU y NONE, los patrones forman "cuadros" complicados de entender, para las P y N suelen marcar palabras con polaridades altas y se entienden mejor las atenciones
     
     
 Atenciones para varias muestras del conjunto de validación:
 
-12)
+Muestra 12:
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_12.png)
 ---
 
-128)
+Muestra 128:
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_128.png)
 ---
 
-13)
+Muestra 13:
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_13.png)
 ---
 
-141)
+Muestra 141:
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_141.png)
 ---
 
-19)
+Muestra 19:
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_19.png)
 ---
 
-222)
+Muestra 222:
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_222.png)
 ---
 
-30)
+Muestra 30:
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_30.png)
 ---
 
-505)
+Muestra 505:
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_505.png)
 ---
 
-508)
+Muestra 508:
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_508.png)
 ---
 
-99)
+Muestra 99:
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_99.png)
