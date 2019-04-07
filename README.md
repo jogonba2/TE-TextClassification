@@ -14,39 +14,58 @@ El modelo tiene una sola capa con 6 cabezales de atención. Lo que se muestra so
 
 Algunas cosas que he visto:
 
-    * El primer cabezal reacciona siempre a los usuarios (token user) y lo que hace referencia a ellos (si no está el token, ni idea)
+ * El primer cabezal reacciona siempre a los usuarios (token user) y lo que hace referencia a ellos (si no está el token, ni idea)
     
-    * El 2º cabezal parece reaccionar a palabras de "tiempo" (hola, saludos, manyana, dias, directo, noche, ...), pero no termino de entenderlo
-    * El 5º cabezal reacciona a palabras con polaridades extremas (genial, maravilloso, horrible, ...) (cuando no hay, ni idea)
+ * El 2º cabezal parece reaccionar a palabras de "tiempo" (hola, saludos, manyana, dias, directo, noche, ...), pero no termino de entenderlo
+
+ * El 5º cabezal reacciona a palabras con polaridades extremas (genial, maravilloso, horrible, ...) (cuando no hay, ni idea)
     
-    * El 3º cabezal reacciona siempre a las palabra "no", "ni" (en caso de que no estén, no lo entiendo, parece controlar la negación marca los segmentos negados)
+ * El 3º cabezal reacciona siempre a las palabra "no", "ni" (en caso de que no estén, no lo entiendo, parece controlar la negación marca los segmentos negados)
     
-    * El 6º cabezal reacciona a casi todo_, parece componer las palabras de alguna manera.
-    
-    * Si no hay palabras que tienen mucha importancia según el cabezal (negaciones, tiempos, usuarios, etc.) parece reaccionar a palabras con polaridad alta (bien positiva o negativa)
+ * El 6º cabezal reacciona a casi todo_, parece componer las palabras de alguna manera.
+
+ * Si no hay palabras que tienen mucha importancia según el cabezal (negaciones, tiempos, usuarios, etc.) parece reaccionar a palabras con polaridad alta (bien positiva o negativa)
     
     * Para las clases NEU y NONE, los patrones forman "cuadros" complicados de entender, para las P y N suelen marcar palabras con polaridades altas y se entienden mejor las atenciones
     
     
-Atenciones para varias muestras:
+Atenciones para varias muestras del conjunto de validación:
 
-
+12)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_12.png)
 ---
+
+128)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_128.png)
 ---
+
+13)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_13.png)
 ---
+
+141)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_141.png)
 ---
+
+19)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_19.png)
 ---
+
+222)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_222.png)
 ---
+
+30)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_30.png)
 ---
+
+505)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_505.png)
 ---
+
+508)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_508.png)
 ---
+
+99)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_99.png)
