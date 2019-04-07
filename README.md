@@ -114,5 +114,5 @@ Muestra 136 (Pred:N Truth:P)
 ---
 
 Muestra 17 (Pred:P Truth:P)
-![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_17png)
+![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_17.png)
 ---
