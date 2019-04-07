@@ -55,7 +55,7 @@ Algunas cosas que he visto:
 
  * Si no hay palabras que tienen mucha importancia según el cabezal (negaciones, tiempos, usuarios, etc.) todos parecen reaccionar a palabras con polaridad alta (bien positiva o negativa)
  
- * Para las clases NEU y NONE, los patrones forman patrones complicados de entender, para las P y N suelen marcar palabras con polaridades altas y se entienden mejor las atenciones (aunque en algunos casos, también son complicados).
+ * Para las clases NEU y NONE, las atenciones forman patrones complicados de entender, para las P y N suelen marcar palabras con polaridades altas y se entienden mejor las atenciones (aunque en algunos casos, también son complicados).
     
     
 Atenciones para varias muestras del conjunto de validación:
