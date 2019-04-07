@@ -31,41 +31,41 @@ Algunas cosas que he visto:
     
 Atenciones para varias muestras del conjunto de validación:
 
-Muestra 12:
+Muestra 12 (Pred:N Truth:N)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_12.png)
 ---
 
-Muestra 128:
+Muestra 128 (Pred:NONE Truth:NEU)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_128.png)
 ---
 
-Muestra 13:
+Muestra 13 (Pred:NEU Truth:NEU)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_13.png)
 ---
 
-Muestra 141:
+Muestra 141 (Pred:N Truth:N)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_141.png)
 ---
 
-Muestra 19:
+Muestra 19 (Pred:N Truth:N)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_19.png)
 ---
 
-Muestra 222:
+Muestra 222 (Pred:N Truth:N)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_222.png)
 ---
 
-Muestra 30:
+Muestra 30 (Pred:N Truth:N)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_30.png)
 ---
 
-Muestra 505:
+Muestra 505 (Pred:N Truth:N)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_505.png)
 ---
 
-Muestra 508:
+Muestra 508 (Pred:P Truth:N)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_508.png)
 ---
 
-Muestra 99:
+Muestra 99 (Pred:NEU Truth:NEU)
 ![alt text](https://github.com/jogonba2/TASS2019/blob/master/figures/ejemplo_99.png)
