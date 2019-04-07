@@ -22,11 +22,11 @@ Algunas cosas que he visto:
     
  * El 3º cabezal reacciona siempre a las palabra "no", "ni" (en caso de que no estén, no lo entiendo, parece controlar la negación marca los segmentos negados)
     
- * El 6º cabezal reacciona a casi todo_, parece componer las palabras de alguna manera.
+ * El 6º cabezal reacciona a casi todo, parece componer las palabras de alguna manera.
 
- * Si no hay palabras que tienen mucha importancia según el cabezal (negaciones, tiempos, usuarios, etc.) parece reaccionar a palabras con polaridad alta (bien positiva o negativa)
+ * Si no hay palabras que tienen mucha importancia según el cabezal (negaciones, tiempos, usuarios, etc.) todos parecen reaccionar a palabras con polaridad alta (bien positiva o negativa)
  
- * Para las clases NEU y NONE, los patrones forman "cuadros" complicados de entender, para las P y N suelen marcar palabras con polaridades altas y se entienden mejor las atenciones
+ * Para las clases NEU y NONE, los patrones forman patrones complicados de entender, para las P y N suelen marcar palabras con polaridades altas y se entienden mejor las atenciones (aunque en algunos casos, también son complicados).
     
     
 Atenciones para varias muestras del conjunto de validación:
