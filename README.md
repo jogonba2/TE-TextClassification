@@ -19,22 +19,23 @@ MP: 0.529196
 MR: 0.521423
 Conf Matrix
 
- [[201  30  13  22]
- [ 31  29  10  13]
- [ 16  10  30   8]
- [ 46  22  14  86]]
+    N 201 30 13 22
+    NEU 31 29 10 13
+    NONE 16 10 30 8
+    P 46 22 14 86
  
 Classification Report
-               precision    recall  f1-score   support
+
+           precision    recall  f1-score   support
 
            N       0.68      0.76      0.72       266
          NEU       0.32      0.35      0.33        83
         NONE       0.45      0.47      0.46        64
            P       0.67      0.51      0.58       168
 
-   micro avg       0.60      0.60      0.60       581
-   macro avg       0.53      0.52      0.52       581
-weighted avg       0.60      0.60      0.59       581
+    micro avg       0.60      0.60      0.60       581
+    macro avg       0.53      0.52      0.52       581
+    weighted avg       0.60      0.60      0.59       581
 
 
 El modelo tiene una sola capa con 6 cabezales de atención. Lo que se muestra son los 6 cabezales para cada muestra (más amarillo más peso, más morado, menos peso).
