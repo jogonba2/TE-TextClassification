@@ -20,8 +20,8 @@ class Visualization:
                 plt.imshow(attns, interpolation="nearest")
             else:
                 plt.imshow(attns[ind_head], interpolation='nearest')
-            plt.xticks(np.arange(len(ticks)), ticks, rotation='vertical')
-            plt.yticks(np.arange(len(ticks)), ticks)
+            plt.xticks(np.arange(len(ticks)), [x+ " " for x in ticks], rotation='vertical', fontsize=46)
+            plt.yticks(np.arange(len(ticks)), ticks, fontsize=46)
 
 
         if not save:
@@ -29,4 +29,4 @@ class Visualization:
             plt.show()
         else:
             assert output_file
-            fig.savefig(output_file)
+            fig.savefig(output_file, format="pdf")

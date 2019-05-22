@@ -46,7 +46,7 @@ if __name__ == "__main__":
     test_path = "./tass-corpus/es/dev.csv"
 
     # Training Parameters #
-    path_model = "./best-models/transformer_1646NO.hdf5"
+    path_model = "./best-models/transformer_1648NO.hdf5"
     r_cats = {0:"N", 1:"NEU", 2:"NONE", 3:"P"}
     tokenizer = ToktokTokenizer()
     w2v_path = "./twitter87/twitter87.model"
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     embedding_dims = w2v.vector_size
     n_encoders = 1 #2 #1
     attention_dims = 64 #32 #64
-    n_heads = 6 #8
+    n_heads = 8 #8
     dim_h = 128 #256
     final_h = False #False
     pool_mode = "average" #"average"
@@ -113,16 +113,35 @@ if __name__ == "__main__":
     attns = ht.attn_model.predict([rx_dv, masks_dv, pe_dv], batch_size=256)
 
     inp = int(input())
+    #s = input()
+    # Chulas: 19 (N), 141 (N), 56 (P), 99 (P)
 
-    # Chulas: 222, 19, 505, 30, 99, 13, 128, ¿136?, 12, 141, 508
-    # El primer cabezal reacciona siempre a los usuarios (token user) y lo que hace referencia a ellos (si no está el token, ni idea)
-    # El 2º cabezal parece reaccionar a palabras de "tiempo" (hola, saludos, manyana, dias, directo, noche, ...), pero no termino de entenderlo
-    # El 5º cabezal reacciona a palabras con polaridades extremas (genial, maravilloso, horrible, ...) (cuando no hay, ni idea)
-    # El 3º cabezal reacciona siempre a las palabra "no", "ni" (en caso de que no estén, no lo entiendo, parece controlar la negación marca los segmentos negados)
-    # El 6º cabezal reacciona a casi todo_, parece componer las palabras de alguna manera.
-    # Si no hay palabras que tienen mucha importancia según el cabezal (negaciones, tiempos, usuarios, etc.) parece reaccionar a palabras con polaridad alta (bien positiva o negativa)
-    # Para las clases NEU y NONE, los patrones forman "cuadros" complicados de entender, para las P y N suelen marcar palabras con polaridades altas y se entienden mejor las atenciones
     while inp != -1:
+    #while s != "":
+
+        s = Preprocess.preprocess(x_dv[inp], tokenizer)
+        rs = np.array(StringProcessing.represent_documents([s], max_words, embedding_dims, w2v, word_delimiter=" "))
+        mask = np.array([((r != 0).sum(axis=1) > 0).astype("int") for r in rs])
+        pe = np.array([Utils.build_pe_sent_encodings(matrix_pos_encodings, m) for m in mask])
+        pred =  ht.model.predict([rs, mask, pe], batch_size=256)
+        attn_i = ht.attn_model.predict([rs, mask, pe], batch_size=256)[0]
+        l_words = s.split()
+        print("Pred: %s" % (pred))
+        print("Truth: %s" % (y_dv[inp]))
+        pad = 0
+        while len(l_words) < max_words:
+            l_words.insert(0, "<pad>")
+            pad += 1
+        l_words = l_words[pad:]
+        attn_i = attn_i[:, pad:, pad:]
+        attn_i = attn_i[2]
+        #attn_i = attn_i.sum(axis=0)
+        output_file = "sentiment_att.pdf"
+        Visualization.visualize_attentions(attn_i, 30, 30, rows=1, columns=1, ticks=l_words, output_file=output_file,
+                                           save=True)
+        inp = int(input())
+
+        """
         attn_i = attns[inp]
         l_words = x_dv[inp].split()
         print("Pred: %s, True: %s" % (preds[inp], truths[inp]))
@@ -133,5 +152,7 @@ if __name__ == "__main__":
         l_words = l_words[pad:]
         attn_i = attn_i[:, pad:, pad:]
         #attn_i = attn_i.sum(axis=0)
-        Visualization.visualize_attentions(attn_i, 18, 18, rows = 2, columns = 3, ticks = l_words)
+        output_file = "ejemplo_%d.png" % inp
+        Visualization.visualize_attentions(attn_i, 40, 40, rows = 2, columns = 4, ticks = l_words, output_file = output_file, save = False)
         inp = int(input())
+        """
