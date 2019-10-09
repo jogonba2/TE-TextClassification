@@ -1,3 +1,44 @@
+If you use this work, please cite the following references:
+
+```
+@inproceedings{irosva19,
+  author    = {Jos{\'{e}}{-}{\'{A}}ngel Gonz{\'{a}}lez and
+               Llu{\'{\i}}s{-}Felip Hurtado and
+               Ferran Pla},
+  title     = {ELiRF-UPV at IroSvA: Transformer Encoders for Spanish Irony Detection},
+  booktitle = {Proceedings of the Iberian Languages Evaluation Forum co-located with
+               35th Conference of the Spanish Society for Natural Language Processing,
+               IberLEF@SEPLN 2019, Bilbao, Spain, September 24th, 2019.},
+  pages     = {278--284},
+  year      = {2019},
+  crossref  = {DBLP:conf/sepln/2019iberlef},
+  url       = {http://ceur-ws.org/Vol-2421/IroSvA\_paper\_4.pdf},
+  timestamp = {Fri, 30 Aug 2019 13:15:06 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/sepln/GonzalezHP19},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
+
+```
+@inproceedings{tass19,
+  author    = {Jos{\'{e}}{-}{\'{A}}ngel Gonz{\'{a}}lez and
+               Llu{\'{\i}}s{-}Felip Hurtado and
+               Ferran Pla},
+  title     = {ELiRF-UPV at {TASS} 2019: Transformer Encoders for Twitter Sentiment
+               Analysis in Spanish},
+  booktitle = {Proceedings of the Iberian Languages Evaluation Forum co-located with
+               35th Conference of the Spanish Society for Natural Language Processing,
+               IberLEF@SEPLN 2019, Bilbao, Spain, September 24th, 2019.},
+  pages     = {571--578},
+  year      = {2019},
+  crossref  = {DBLP:conf/sepln/2019iberlef},
+  url       = {http://ceur-ws.org/Vol-2421/TASS\_paper\_2.pdf},
+  timestamp = {Fri, 30 Aug 2019 13:15:06 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/sepln/GonzalezHP19a},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
+
 # TASS2019
 
 Este es el modelo que mejor ha funcionado en comparación a los modelos del año pasado (puede ser que ajustando los modelos del año pasado funcionen mejor que este, pero en todas las ejecuciones que he hecho con este modelo y con casi cualquier hiper-parámetro, pasa los 50 de MF1:
