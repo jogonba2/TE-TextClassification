@@ -1,5 +1,24 @@
 If you use this work, please cite the following references:
 
+
+```
+ @article{selfatttc,
+  added-at = {},
+  author = {González, José-Ángel and Hurtado, Lluís-F. and Pla, Ferran},
+  biburl = {},
+  ee = {},
+  interhash = {},
+  intrahash = {},
+  journal = {Journal of Intelligent and Fuzzy Systems},
+  number = None,
+  pages = {},
+  title = {Self-Attention for Twitter Sentiment Analysis in Spanish},
+  url = {},
+  volume = {},
+  year = 2019
+ }
+```
+
 ```
 @inproceedings{irosva19,
   author    = {Jos{\'{e}}{-}{\'{A}}ngel Gonz{\'{a}}lez and
