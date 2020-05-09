@@ -1,5 +1,21 @@
 If you use this work, please cite the following references:
 
+```
+@article{GONZALEZ2020102262,
+title = "Transformer based contextualization of pre-trained word embeddings for irony detection in Twitter",
+journal = "Information Processing & Management",
+volume = "57",
+number = "4",
+pages = "102262",
+year = "2020",
+issn = "0306-4573",
+doi = "https://doi.org/10.1016/j.ipm.2020.102262",
+url = "http://www.sciencedirect.com/science/article/pii/S0306457320300200",
+author = "José Ángel González and Lluís-F. Hurtado and Ferran Pla",
+keywords = "Irony detection, Twitter, Deep learning, Transformer encoders",
+abstract = "Human communication using natural language, specially in social media, is influenced by the use of figurative language like irony. Recently, several workshops are intended to explore the task of irony detection in Twitter by using computational approaches. This paper describes a model for irony detection based on the contextualization of pre-trained Twitter word embeddings by means of the Transformer architecture. This approach is based on the same powerful architecture as BERT but, differently to it, our approach allows us to use in-domain embeddings. We performed an extensive evaluation on two corpora, one for the English language and another for the Spanish language. Our system was the first ranked system in the Spanish corpus and, to our knowledge, it has achieved the second-best result on the English corpus. These results support the correctness and adequacy of our proposal. We also studied and interpreted how the multi-head self-attention mechanisms are specialized on detecting irony by means of considering the polarity and relevance of individual words and even the relationships among words. This analysis is a first step towards understanding how the multi-head self-attention mechanisms of the Transformer architecture address the irony detection problem."
+}
+```
 
 ```
  @article{selfatttc,
@@ -15,48 +31,10 @@ If you use this work, please cite the following references:
   title = {Self-Attention for Twitter Sentiment Analysis in Spanish},
   url = {},
   volume = {},
-  year = 2019
+  year = 2020
  }
 ```
 
-```
-@inproceedings{irosva19,
-  author    = {Jos{\'{e}}{-}{\'{A}}ngel Gonz{\'{a}}lez and
-               Llu{\'{\i}}s{-}Felip Hurtado and
-               Ferran Pla},
-  title     = {ELiRF-UPV at IroSvA: Transformer Encoders for Spanish Irony Detection},
-  booktitle = {Proceedings of the Iberian Languages Evaluation Forum co-located with
-               35th Conference of the Spanish Society for Natural Language Processing,
-               IberLEF@SEPLN 2019, Bilbao, Spain, September 24th, 2019.},
-  pages     = {278--284},
-  year      = {2019},
-  crossref  = {DBLP:conf/sepln/2019iberlef},
-  url       = {http://ceur-ws.org/Vol-2421/IroSvA\_paper\_4.pdf},
-  timestamp = {Fri, 30 Aug 2019 13:15:06 +0200},
-  biburl    = {https://dblp.org/rec/bib/conf/sepln/GonzalezHP19},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-```
-
-```
-@inproceedings{tass19,
-  author    = {Jos{\'{e}}{-}{\'{A}}ngel Gonz{\'{a}}lez and
-               Llu{\'{\i}}s{-}Felip Hurtado and
-               Ferran Pla},
-  title     = {ELiRF-UPV at {TASS} 2019: Transformer Encoders for Twitter Sentiment
-               Analysis in Spanish},
-  booktitle = {Proceedings of the Iberian Languages Evaluation Forum co-located with
-               35th Conference of the Spanish Society for Natural Language Processing,
-               IberLEF@SEPLN 2019, Bilbao, Spain, September 24th, 2019.},
-  pages     = {571--578},
-  year      = {2019},
-  crossref  = {DBLP:conf/sepln/2019iberlef},
-  url       = {http://ceur-ws.org/Vol-2421/TASS\_paper\_2.pdf},
-  timestamp = {Fri, 30 Aug 2019 13:15:06 +0200},
-  biburl    = {https://dblp.org/rec/bib/conf/sepln/GonzalezHP19a},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-```
 
 # TASS2019
 
