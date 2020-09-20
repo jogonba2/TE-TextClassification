@@ -18,21 +18,22 @@ abstract = "Human communication using natural language, specially in social medi
 ```
 
 ```
- @article{selfatttc,
-  added-at = {},
-  author = {González, José-Ángel and Hurtado, Lluís-F. and Pla, Ferran},
-  biburl = {},
-  ee = {},
-  interhash = {},
-  intrahash = {},
-  journal = {Journal of Intelligent and Fuzzy Systems},
-  number = None,
-  pages = {},
-  title = {Self-Attention for Twitter Sentiment Analysis in Spanish},
-  url = {},
-  volume = {},
-  year = 2020
- }
+@article{DBLP:journals/jifs/GonzalezHP20,
+  author    = {Jos{\'{e}}{-}{\'{A}}ngel Gonz{\'{a}}lez and
+               Llu{\'{\i}}s{-}F. Hurtado and
+               Ferran Pla},
+  title     = {Self-attention for Twitter sentiment analysis in Spanish},
+  journal   = {J. Intell. Fuzzy Syst.},
+  volume    = {39},
+  number    = {2},
+  pages     = {2165--2175},
+  year      = {2020},
+  url       = {https://doi.org/10.3233/JIFS-179881},
+  doi       = {10.3233/JIFS-179881},
+  timestamp = {Thu, 10 Sep 2020 16:38:02 +0200},
+  biburl    = {https://dblp.org/rec/journals/jifs/GonzalezHP20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 
 
